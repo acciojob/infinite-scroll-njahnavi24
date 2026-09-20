@@ -7,7 +7,7 @@ const addItems = (count) => {
 		list.appendChild(li)
 	}
 }
-addItems(2)
+addItems(10)
 
 list.addEventListener("scroll",()=>{
 	if(list.scrollTop + list.clientHeight >= list.scrollHeight){
